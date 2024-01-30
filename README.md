@@ -2,7 +2,8 @@
 
 ## Overview
 
-This repository explores the modeling of the probability mass function for a binary response variable (y ∈ {0, 1}) in the presence of a set of observations (x = (x1 , ..., xp )^T ∈ ℝ^p). Traditional regression frameworks face challenges in this scenario, including issues like predicted probabilities outside [0,1], potential violations of constant variance, and non-normality of residuals.
+This repository explores the modeling of the probability mass function for a binary response variable (y ∈ {0, 1}) in the presence of a set of observations $x = (x1 , ..., xp )^T ∈ ℝ^p)$ Traditional regression frameworks face challenges in this scenario, including issues like predicted probabilities outside [0,1], potential violations of constant variance, and non-normality of residuals.
+
 
 To tackle these challenges, the project adopts the perspective of treating the binary response y as a Bernoulli variable. The probability parameter (p) is modeled as a linear combination of predictors using a probit or logit mapping. The problem is then reformulated as modeling the binary response through the equation:
 
