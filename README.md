@@ -8,6 +8,7 @@ This repository explores the modeling of the probability mass function for a bin
 To tackle these challenges, the project adopts the perspective of treating the binary response y as a Bernoulli variable. The probability parameter (p) is modeled as a linear combination of predictors using a probit or logit mapping. The problem is then reformulated as modeling the binary response through the equation:
 
 $ Pr(y = 1 | x, \beta) = Φ(x^T \beta) $
+![Probability Equation](https://latex.codecogs.com/svg.latex?Pr(y%20=%201%20|%20x,%20\beta)%20=%20\Phi(x^T%20\beta))
 
 
 The primary goal is to infer the parameter vector \( \beta = (\beta_1, \ldots, \beta_p)^T ∈ ℝ^p \) from the available data.
