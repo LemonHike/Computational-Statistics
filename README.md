@@ -1,8 +1,8 @@
-# Probabilistic Binary Response Modeling
+# Probabilistic Binary Response Modelling
 
 ## Overview
 
-This repository explores the modeling of the probability mass function for a binary response variable $y \in {0, 1}$ in the presence of a set of observations $\textbf{x} = (x_1 , ..., x_p )$ Traditional regression frameworks face challenges in this scenario, including issues like predicted probabilities outside [0,1], potential violations of constant variance, and non-normality of residuals.
+This repository explores the modelling of the probability mass function for a binary response variable $y \in {0, 1}$ in the presence of a set of observations $\textbf{x} = (x_1 , ..., x_p )$ Traditional regression frameworks face challenges in this scenario, including issues like predicted probabilities outside [0,1], potential violations of constant variance, and non-normality of residuals.
 
 To tackle these challenges, the project adopts the perspective of treating the binary response y as a Bernoulli variable. The probability parameter (p) is modeled as a linear combination of predictors using a probit or logit mapping. The primary goal is to infer the parameter vector  **β** from the available data.
 
